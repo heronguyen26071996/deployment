@@ -1,35 +1,12 @@
-// import React from 'react';
-// import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
 
 import React, {  useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import SideNav, { NavItem, NavIcon, NavText } from "@trendmicro/react-sidenav";
 import { Modal, message,Row,Col } from "antd";
 import 'antd/dist/antd.css'; 
-
-import './index.css'
+// import './App.css'
+// import './index.css'
 
 import styled from "styled-components";
 import ClickOutside from "react-click-outside";
