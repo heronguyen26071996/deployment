@@ -8,12 +8,7 @@ const LoadableLogin = Loadable({
     loading: Loading
 })
 
-const LoadableHome = Loadable({
-    loader() {
-        return import('./components/Home')
-    },
-    loading: Loading
-})
+
 
 const LoadableContact = Loadable({
     loader() {
@@ -34,12 +29,6 @@ const LoadableEdit = Loadable({
     loading: Loading
 })
 const routes = [
-    {
-        path: '/home',
-        exact: true,
-        main: () => <LoadableHome />
-    },
-
     {
         path: '/add',
         exact: true,

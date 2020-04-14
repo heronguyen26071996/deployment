@@ -11,7 +11,6 @@ import {
   Table
 } from 'antd'
 import 'antd/dist/antd.css'
-import '../index.css'
 import dataProject from '../data/projectname'
 import moment, { localeData } from 'moment'
 
