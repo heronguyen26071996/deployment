@@ -1,7 +1,6 @@
 import React, {  useState } from 'react'
 import { Form, Input, Button, Row, Col, notification,Spin } from 'antd'
 import 'antd/dist/antd.css';
-import '../index.css'
 import { useHistory } from 'react-router-dom'
 const axios = require('axios');
 var Login = function () {
